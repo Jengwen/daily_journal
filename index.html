@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="styles/journal.css">
+ 
+</head>
+<body>
+
+    <form action="journalEntry">
+        <!-- Create date entry -->
+        <fieldset>
+            <label for="journalDate">Date of Entry</label>
+            <input type="date" name="journalDate" id="journalDate">
+        </fieldset>
+
+        <!-- CReate concept input -->
+        <fieldset>
+            <label for="concepts">Concepts Covered</label>
+            <input type="text" name="concepts" id="concepts">
+        </fieldset>
+
+        <!-- create journal entry area -->
+        <fieldset>
+        <label for="journalEntry">Journal Entry</label>
+<textarea name="journalEntry" id="j-entry" cols="30" rows="10"></textarea>
+</fieldset>
+
+<!-- create mood dropdown selection -->
+<fieldset>
+    <label for="moodSelection">Mood for the day</label>
+<select name="moodSelection" id="moodSelection">
+    <option value="Frustrated">Frustrated</option>
+    <option value="Happy">Happy</option>
+    <option value="Sad">Sad</option>
+    <option value="Confident">Confident</option>
+</select>
+</fieldset>
+</form>
+<!-- create submit button -->
+
+    <button id ="submit-entry" type="submit">Record Journal Entry</button>
+    
+<!-- create container element -->
+<article class="entryLog">
+
+</article>
+
+<script src="scripts/apiManager.js"></script>
+<script src="scripts/DOMprinter.js"></script>
+<script src="scripts/singleJournalEntry.js"></script>
+    <script src="scripts/journal.js"></script>
+</body>
+</html>

@@ -10,4 +10,4 @@ const renderJournalEntries = (entries) =>{
     }
  }
 
- export default renderJournalEntries;
+export default renderJournalEntries

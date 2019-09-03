@@ -7,8 +7,6 @@ const submitButton = document.querySelector("#submit-entry")
 
 // add event listener to capture values upon click of submit button
 submitButton.addEventListener("click", function(){
-
-
 })
 
 apiEntries.getAllEntries()

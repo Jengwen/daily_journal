@@ -1,3 +1,4 @@
+import renderJournalEntries from "./DOMprinter.js"
 // fetch journal entries from JSON server
 const apiEntries ={
 getAllEntries: () => {

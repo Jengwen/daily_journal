@@ -1,4 +1,4 @@
-
+import apiEntries from "./apiManager.js"
 // create variable for location to return array to the DOM
 // const jEntryContainer = document.querySelector("#entryLog")
 

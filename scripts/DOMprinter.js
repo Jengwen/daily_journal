@@ -1,3 +1,4 @@
+import makeJournalEntryComponent from "./singleJournalEntry.js"
 // Build print to DOM function
 
 const renderJournalEntries = (entries) =>{
@@ -8,3 +9,5 @@ const renderJournalEntries = (entries) =>{
      entryLog.innerHTML = journalEntries
     }
  }
+
+ export default renderJournalEntries;

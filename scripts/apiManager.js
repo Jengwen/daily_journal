@@ -11,3 +11,4 @@ return fetch("http://localhost:3000/entries") // Fetch from the API
 })
 }
 }
+export default apiEntries;
